@@ -1,0 +1,15 @@
+{
+  "name": "pakasir-webhook-vercel",
+  "version": "1.0.0",
+  "main": "pakasir-webhook.js",
+  "scripts": {
+    "start": "node pakasir-webhook.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "crypto": "^1.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
