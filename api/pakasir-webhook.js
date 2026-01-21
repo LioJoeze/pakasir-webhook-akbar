@@ -36,7 +36,7 @@ module.exports = async function handler(req, res) {
 
         await bot.sendMessage(
             userId,
-            `✅ *Pembayaran Berhasil!*\n\n🎉 Akses grup 18+ sudah aktif\nKlik link di bawah untuk masuk 👇\n\n🔗 [JOIN GROUP 18+](https://t.me/durovcuyy)`,
+            `✅ *Pembayaran Berhasil!*\n\n🎉 Akses grup Kamu di sini sudah aktif\nKlik link di bawah untuk masuk 👇\n\n🔗 [JOIN GROUP Private](https://t.me/durovcuyy)`,
             {
                 parse_mode: "Markdown",
                 disable_web_page_preview: true
@@ -45,7 +45,7 @@ module.exports = async function handler(req, res) {
 
         await bot.sendMessage(
             CHANNEL_ID,
-            `🎉 *TRANSAKSI BERHASIL*\n\n👤 *User ID* : ${userId}\n📦 *Produk* : Akses Grup 18+\n💰 *Total* : Rp${totalAmount.toLocaleString("id-ID")}\n🕒 *Waktu* : ${new Date().toLocaleString("id-ID")}`,
+            `🎉 *TRANSAKSI BERHASIL*\n\n👤 *User ID* : ${userId}\n📦 *Produk* : Akses Grup Exclusive\n💰 *Total* : Rp${totalAmount.toLocaleString("id-ID")}\n🕒 *Waktu* : ${new Date().toLocaleString("id-ID")}`,
             {
                 parse_mode: "Markdown",
                 reply_markup: {
